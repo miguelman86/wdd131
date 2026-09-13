@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    background-color: #1d4d6f;
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.titulo {
+    display: block;
+}
+
+nav {
+    background-color: #333333;
+    padding: 8px
+    }
+
+nav ul {
+    display: flex;
+    list-style: none;    
+}
+
+nav ul li {
+    flex: 1 1 100%;
+    text-align: center;    
+}
+
+nav a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #1d4d6f;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.header h2 {
+    font-size: 1rem;
+    
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.body1 {
+    display: grid;
+}
+
+.presentacao p {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.venezuela {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.pais {
+    text-align: center;
+    margin: 0 60px;
+}
+
+.pais h3 {
+    font-size: 1.6rem;
+    margin: 20px 0 5px 0;
+    border-bottom: 1px solid #757373
+}
+
+.bandeira {
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+
+.bandeira img {
+    width: 20px;
+    min-width: 100px;
+}
+
+.bandeira p {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    padding: 0;
+}
+
+.venezuela p {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.body2 img {
+    width: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px;
+}
+
+.links {
+    margin: 100px 20px;
+}
+
+.links ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: #1a0dab;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.links a:hover {
+    color: #1d4d6f;
+}
+
+footer {
+    background-color: #15517c;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#ultimaModificacao {
+    color: rgb(227, 252, 5);
+}
