@@ -21,12 +21,12 @@ header h1 {
     padding: 15px 10px;
 }
 
-.titulo {
+.course-title {
     display: block;
 }
 
 nav {
-    background-color: #333333;
+    background-color: #1b1919;
     padding: 8px
     }
 
@@ -175,7 +175,7 @@ main h1 {
 }
 
 footer {
-    background-color: #15517c;
+    background-color: #0a2f49;
     padding-bottom: 20px;
 }
 
