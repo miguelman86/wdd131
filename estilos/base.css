@@ -12,10 +12,11 @@ body {
 header {
     width: 100%;
     background-color: #1d4d6f;
+    color: white;
 }
 
 header .header-title {
-    color: aliceblue;
+    color: white;
     font-size: 1.5rem;
     text-align: center;
     padding: 15px 10px;
@@ -27,7 +28,7 @@ header .header-title {
 
 nav {
     background-color: #1b1919;
-    padding: 8px
+    padding: 8px;
     }
 
 nav ul {
@@ -177,10 +178,11 @@ main h1 {
 footer {
     background-color: #0a2f49;
     padding-bottom: 20px;
+    color: white;
 }
 
 footer p {
-    color: #f5f5f5;
+    color: white;
     text-align: center;
     padding: 20px 0 0 0;
 }
