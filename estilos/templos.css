@@ -42,6 +42,12 @@ h1 {
     font-size: 2.5rem;
 }
 
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
 .navigacao {
     display: flex;
     flex-direction: column;
