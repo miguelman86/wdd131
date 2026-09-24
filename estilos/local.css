@@ -55,7 +55,6 @@ h1 {
     margin: 0 0 1rem;
     font-size: 2rem;
     color: var(--azul);
-    }
 }
 
 .hero {
@@ -123,6 +122,8 @@ footer p {
         width: 350px;
         padding: 0 1rem 1.5rem;
         background-color: var(--branco);
+        top: 2.5rem;
+        left: 2rem;
     }
 
     .clima {
@@ -130,6 +131,8 @@ footer p {
         width: 350px;
         padding: 0 1rem 1.5rem;
         background-color: var(--branco);
+        right: 2rem;
+        bottom: 2.5rem;
     }
 
 
@@ -156,16 +159,6 @@ footer p {
         width: calc(100% + 1rem);
     }
 
-    .dados {
-        top: 2.5rem;
-        left: 2rem;
-    }
-
-    .clima {
-        right: 2rem;
-        bottom: 2.5rem;
-    }
-
     .clima h2::after {
         content: "⛅";
         margin-left: 1rem;
@@ -178,20 +171,22 @@ footer p {
 
 /* Ajuste para celulares pequenos */
 @media screen and (max-width: 480px) {
-    body {
+    body {       
         padding: 0;
-        .dados {
-            border-bottom: 1px solid #466170;
-        }
-
-        .clima {
-            border-bottom: 1px solid #466170;
-        }
-
-        dl div {
-            grid-template-columns: minmax(125px, 1fr) 1fr;
-            gap: 0.5rem;
-        }
     }
+        
+    .dados {
+        border-bottom: 1px solid #466170;
+    }
+
+    .clima {
+        border-bottom: 1px solid #466170;
+    }
+
+    dl div {
+        grid-template-columns: minmax(125px, 1fr) 1fr;
+        gap: 0.5rem;
+    }
+    
 }
 
