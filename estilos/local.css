@@ -3,7 +3,6 @@
     --branco: #ffffff;
     --amarelo: #e7e40a;
 
-
 }
 
 * {
@@ -32,17 +31,31 @@ h1 {
     background-color: var(--azul);
 }
 
-.card {
+.dados {
     background-color: #f5f5f5;
     padding: 20px;
     text-align: center;
     border: 1px solid #0f7eb9;
 }
 
-.card h2 {
+.clima {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #0f7eb9;
+}
+
+.dados h2 {
     margin: 0 0 1rem;
     font-size: 2rem;
     color: var(--azul);
+}
+
+.clima h2 {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    color: var(--azul);
+    }
 }
 
 .hero {
@@ -105,14 +118,34 @@ footer p {
         object-fit: cover;
     }
     
-    .card {
+    .dados {
         position: absolute;
         width: 350px;
         padding: 0 1rem 1.5rem;
         background-color: var(--branco);
     }
 
-    .card h2 {
+    .clima {
+        position: absolute;
+        width: 350px;
+        padding: 0 1rem 1.5rem;
+        background-color: var(--branco);
+    }
+
+
+
+    .dados h2 {
+        position: relative;
+        left: -2rem;
+        top: 1rem;
+        padding: 1rem;
+        background-color: #0f6ba0;
+        text-align: left;
+        color: var(--branco);
+        width: calc(100% + 1rem);
+    }
+
+    .clima h2 {
         position: relative;
         left: -2rem;
         top: 1rem;
@@ -147,7 +180,11 @@ footer p {
 @media screen and (max-width: 480px) {
     body {
         padding: 0;
-        .card {
+        .dados {
+            border-bottom: 1px solid #466170;
+        }
+
+        .clima {
             border-bottom: 1px solid #466170;
         }
 
