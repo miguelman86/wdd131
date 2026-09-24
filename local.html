@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venezuela</title>
+    <meta name="description" content="Dados basicos do pais de venezuela">
+    <meta name="author" content="Miguel Jose Mansilla Avila">
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Venezuela</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="imagens/salto-angel-grande.webp" media="(min-width: 800px)">
+                <img src="imagens/salto-angel.webp" alt="Salto Angel, a cachoeira mais alta do mundo em Venezuela" width="700">
+            </picture>
+        </div>
+        <section class="card dados">
+            <h2>Dados</h2>
+            <dl>
+                <div>
+                    <dt>Área:</dt>
+                    <dd>916.445 km²</dd>
+                </div>
+                <div>
+                    <dt>Capital:</dt>
+                    <dd>Caracas</dd>
+                </div>
+                <div>
+                    <dt>População:</dt>
+                    <dd>28.515.829 (2023)</dd>
+                </div>
+                <div>
+                    <dt>Idioma:</dt>
+                    <dd>Espanhol</dd>
+                </div>
+                <div>
+                    <dt>Moeda:</dt>
+                    <dd>Bolívar Soberano</dd>
+                </div>
+                <div>
+                    <dt>Calling Code:</dt>
+                    <dd>+58</dd>
+                </div>
+                <div>
+                    <dt>Fuso Horário:</dt>
+                    <dd>UTC -4</dd>
+                </div>
+            </dl>
+        </section>
+        <section class="card clima">
+            <h2>Clima</h2>
+            <img class="icon-clima" src="imagens/app-de-clima.webp" alt="icono de clima" width="70px">
+            <dl>
+                <div>
+                    <dt>Temperatura:</dt>
+                    <dd><span id="temperature">8</span>°C</dd>
+                </div>
+                <div>
+                    <dt>Condição:</dt>
+                    <dd>Parcialmente nublado</dd>
+                </div>
+                <div>
+                    <dt>Vento:</dt>
+                    <dd><span id="wind-speed">12</span> km/h</dd>
+                </div>
+                <div>
+                    <dt>Sensação termica:</dt>
+                    <dd><span id="wind-chill"></span></dd>
+                </div>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="anoatual"></span> 🌴 Miguel Jose Mancilla Avila 🌴 Venezuela</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+
+</body>
+    
+    
+</body>
+</html>
