@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Documento de Planejamento - Turismo no Brasil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="planejamentodosite-turismo.css">
+</head>
+<body>
+    <header>
+        <h1>Documento de Planejamento do Site</h1>
+        <p>WDD 131 - S05 - Turismo no Brasil</p>
+    </header>
+
+    <section id="nome">
+        <h2>1. Nome do Site</h2>
+        <h3>Descubra Brasil</h3>
+        <p><strong>Domínio proposto:</strong> descubrabrasil.org</p>
+        <p><strong>Motivo da escolha:</strong> Escolhi o nome "Descubra Brasil" porque ele é curto, 
+            positivo, fácil de lembrar e transmite exatamente o propósito do site: convidar o visitante 
+            a explorar o país. Representa a grande diversidade de paisagens, culturas e atrações turísticas
+            que o Brasil oferece. É um nome forte para marca, visibilidade e reconhecimento. Domínio 
+            opcional: descubra-brasil.com</p>
+    </section>
+
+    <section id="finalidade">
+        <h2>2. Finalidade do Site</h2>
+        <p><strong>Assunto do site:</strong> Turismo no Brasil</p>
+        <p><strong>Conteúdo planejado:</strong> O site apresentará informações sobre o turismo no Brasil, 
+            destacando destinos turísticos, praias, cidades históricas, parques naturais e pontos 
+            turísticos de diferentes regiões do país. Também poderá apresentar informações sobre cultura, 
+            gastronomia e atividades que os turistas podem realizar em cada destino.</p>
+        <p><strong>Escopo:</strong></p>
+        <ul>
+            <li>Guia por regiões (Norte, Nordeste, Centro-Oeste, Sudeste, Sul)</li>
+            <li>Praias: Copacabana, Porto de Galinhas, Fernando de Noronha</li>
+            <li>Cidades históricas: Ouro Preto, Olinda, Paraty</li>
+            <li>Parques naturais: Lençóis Maranhenses, Chapada Diamantina, Tijuca, Amazônia</li>
+            <li>Cultura, gastronomia típica e atividades (trilhas, passeios de barco, festas típicas)</li>
+            <li>Dicas práticas + formulário de contato/newsletter</li>
+        </ul>
+        <p><strong>Razão da escolha:</strong> Escolhi o tema Turismo no Brasil porque o país possui 
+            uma grande diversidade de paisagens, culturas e atrações turísticas. O objetivo é criar 
+            um site informativo que ajude as pessoas a conhecer melhor os destinos brasileiros e encontrar 
+            opções interessantes para suas viagens.</p>
+    </section>
+
+    <section id="cenarios">
+        <h2>3. Cenários - Público-Alvo</h2>
+        <ol>
+            <li><strong>Cenário 1:</strong> "Quais são as melhores praias do Nordeste para viajar com 
+                a família e qual a melhor época para visitar cada uma?"</li>
+            <li><strong>Cenário 2:</strong> "Quero conhecer cidades históricas em Minas Gerais - quais são 
+                os pontos turísticos obrigatórios em Ouro Preto e quais comidas típicas não posso deixar
+                 de provar?"</li>
+            <li><strong>Cenário 3:</strong> "Quais parques naturais no Brasil são ideais para ecoturismo
+                 e trilhas?"</li>
+        </ol>
+    </section>
+
+    <section id="cores">
+        <h2>4. Esquema de Cores</h2>
+        <p>Paleta inspirada nas cores do Brasil e na natureza, com bom contraste (WCAG).</p>
+        <div class="color-grid">
+            <div class="color-box" style="background:#0A5C36;">#0A5C36<br>Primary</div>
+            <div class="color-box" style="background:#FFF9E6; color:#333; border:1px solid #ccc;">#FFF9E6<br>Secondary</div>
+            <div class="color-box" style="background:#FEDF00; color:#333;">#FEDF00<br>Accent 1</div>
+            <div class="color-box" style="background:#002776;">#002776<br>Accent 2</div>
+        </div>
+        <ul style="margin-top:16px;">
+            <li><strong>#0A5C36 Verde Amazônia:</strong> Títulos (h1, h2), navegação, rodapé</li>
+            <li><strong>#FFF9E6 Areia Clara:</strong> Fundo principal - remete a praias</li>
+            <li><strong>#FEDF00 Amarelo Ouro:</strong> Botões, CTA, borda lateral das seções</li>
+            <li><strong>#002776 Azul Brasil:</strong> Links, hero, acentos secundários</li>
+        </ul>
+        <p><em>Este documento já está usando o esquema de cores selecionado.</em></p>
+    </section>
+
+    <section id="tipografia">
+        <h2>5. Tipografia</h2>
+        <h3>Poppins (600 e 700) - Títulos</h3>
+        <p>Usada para h1, h2, h3 e menu. Moderna, geométrica e forte, ideal para turismo.</p>
+        <h3 style="margin-top:20px;">Lato (400 e 700) - Corpo de Texto</h3>
+        <p>Usada para parágrafos, listas e descrições de destinos. Altamente legível em mobile e desktop.</p>
+    </section>
+
+    <section id="wireframe">
+        <h2>6. Wireframe - Página Inicial</h2>
+        <div class="wireframe-container">
+            <div class="wireframe">
+                <strong>📱 Mobile (320px)</strong>
+                <div class="box nav">LOGO Descubra Brasil + ☰ MENU</div>
+                <div class="box hero">HERO: "Explore o Brasil de Norte a Sul"</div>
+                <div class="box">Filtro por Região: [Norte] [Nordeste] [Sudeste] [Sul]</div>
+                <div class="box">Cards: Praia + Cidade Histórica + Parque (empilhados)</div>
+                <div class="box">Seção Cultura & Gastronomia</div>
+                <div class="box">Formulário Newsletter</div>
+                <div class="box nav">RODAPÉ - Contato + Referências</div>
+            </div>
+            <div class="wireframe">
+                <strong>💻 Desktop (1024px+)</strong>
+                <div class="box nav" style="display:flex; justify-content:space-between;"><span>LOGO</span><span>HOME | DESTINOS | PRAIAS | PARQUES | CONTATO</span></div>
+                <div class="box hero">HERO GRANDE - Título à esquerda, imagem panorâmica (Lençóis/Cristo) à direita</div>
+                <div class="box" style="display:flex; gap:6px;"><span style="flex:1; border:1px solid #999; padding:6px;">Lençóis</span><span style="flex:1; border:1px solid #999; padding:6px;">Ouro Preto</span><span style="flex:1; border:1px solid #999; padding:6px;">Noronha</span><span style="flex:1; border:1px solid #999; padding:6px;">Amazônia</span></div>
+                <div class="box">Grid 2 colunas: Mapa do Brasil + Dicas Cultura/Gastronomia</div>
+                <div class="box nav">RODAPÉ 3 colunas: Sobre | Links | Newsletter</div>
+            </div>
+        </div>
+    </section>
+
+    <footer><p>WDD 131 | Turismo no Brasil | Descubra Brasil - Planejamento</p></footer>
+</body>
+</html>
