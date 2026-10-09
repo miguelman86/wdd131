@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Produto - WDD 131</title>
+    <meta name="description" content="Formulário de avaliação de produto WDD 131 S05">
+    <meta name="author" content="Miguel Jose Mansilla Avila">
+    <link rel="stylesheet" href="estilos/formulario.css">
+    <script src="scripts/formulario.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h2>Avaliação do Produto</h2>
+        <form method="get" action="avaliacao.html" class="review-form">
+            <!-- Nome do Produto -->
+            <div class="form-group">
+                <label for="produto">Nome do Produto</label>
+                <select id="produto" name="produto" required>
+                    <option value="" disabled selected>Selecione um Produto ...</option>
+                </select>
+            </div>
+            <!-- Classificação Geral -->
+            <div class="form-group">
+                <label>Classificação Geral</label>
+                <div class="rating">
+                    <div class="star-option">
+                        <label for="star1">&star;</label>
+                        <input type="radio" id="star1" name="classificacao" value="1" required>
+                    </div>
+                    <div class="star-option">
+                        <label for="star2">&star;&star;</label>
+                        <input type="radio" id="star2" name="classificacao" value="2" required>
+                    </div>
+                    <div class="star-option">
+                        <label for="star3">&star;&star;&star;</label>
+                        <input type="radio" id="star3" name="classificacao" value="3" required>
+                    </div>
+                    <div class="star-option">
+                        <label for="star4">&star;&star;&star;&star;</label>
+                        <input type="radio" id="star4" name="classificacao" value="4" required>
+                    </div>
+                    <div class="star-option">
+                        <label for="star5">&star;&star;&star;&star;&star;</label>
+                        <input type="radio" id="star5" name="classificacao" value="5" required>
+                    </div>
+                </div>
+            </div>
+            <!-- Data de Instalação -->
+            <div class="form-group">
+                <label for="dataInstalacao">Data de Instalação</label>
+                <input type="date" id="dataInstalacao" name="dataInstalacao" required>
+            </div>
+            <!-- Recursos Úteis -->
+            <div class="form-group">
+                <label>Quais recursos você achou úteis no produto? <span class="hint">(Marque todos que se
+                        aplicam)</span></label>
+                <div class="checkbox-group">
+                    <div class="check-item">
+                        <input type="checkbox" id="durabilidade" name="recursos" value="Durabilidade">
+                        <label for="durabilidade">Durabilidade</label>
+                    </div>
+                    <div class="check-item">
+                        <input type="checkbox" id="facilidade" name="recursos" value="Facilidade de Uso">
+                        <label for="facilidade">Facilidade de Uso</label>
+                    </div>
+                    <div class="check-item">
+                        <input type="checkbox" id="desempenho" name="recursos" value="Desempenho">
+                        <label for="desempenho">Desempenho</label>
+                    </div>
+                    <div class="check-item">
+                        <input type="checkbox" id="design" name="recursos" value="Design">
+                        <label for="design">Design</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Avaliação Escrita -->
+            <div class="form-group">
+                <label for="avaliacaoEscrita">Avaliação Escrita <span class="optional">(Opcional)</span></label>
+                <textarea id="avaliacaoEscrita" name="avaliacaoEscrita" rows="5"></textarea>
+            </div>
+            <!-- Nome de Usuário -->
+            <div class="form-group">
+                <label for="nomeUsuario">Seu Nome <span class="optional">(Opcional)</span></label>
+                <input type="text" id="nomeUsuario" name="nomeUsuario">
+            </div>
+            <!-- Botão -->
+            <div class="form-group">
+                <input type="submit" value="Publicar Avaliação">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="anoatual"></span> 🌴 Miguel Jose Mancilla Avila 🌴 Venezuela</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+    
+</body>
+
+</html>
