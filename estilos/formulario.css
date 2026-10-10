@@ -119,7 +119,8 @@ textarea {
 .check-item {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 1rem;
+    margin: 3px;
 }
 
 .check-item label {
