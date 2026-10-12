@@ -1,0 +1,19 @@
+Coloque aqui todas as imagens listadas no Main.js:
+- lencoes.jpg
+- ouro-preto.jpg
+- fernando-noronha.jpg
+- chapada-diamantina.jpg
+- gramado.jpg
+- amazonia.jpg
+- rio-janeiro.jpg
+- bonito.jpg
+- acaraje.jpg
+- festa-junina.jpg
+- tacaca.jpg
+- cirio.jpg
+- feijoada.jpg
+- carnaval1.jpg
+- churrasco-gaucho.jpg
+- blumenau.jpg
+- pintado-na-brasa.jpg
+- siriri.jpg
